@@ -1,0 +1,27 @@
+nav {
+  .menu {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    .menu_list {
+      position:relative;
+      display:block;
+      > a {
+        display:block;
+        height:51px;
+        line-height:51px;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding:0 20px;
+        font-weight: 700;
+      }
+    }
+    .menu_list:hover {
+      .dropdown {
+        top: 43px;
+        display: block;
+        opacity: 1;
+      }
+    }
+  }
+}
